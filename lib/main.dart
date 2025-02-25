@@ -11,25 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-home: inicio(),
-
-
-    );
-
+      home:Text("    hola mundo"));
     
   }
 }
 
-class inicio extends StatefulWidget {
-  const inicio({super.key});
-
-  @override
-  State<inicio> createState() => _inicioState();
-}
-
-class _inicioState extends State<inicio> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
